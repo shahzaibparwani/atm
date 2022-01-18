@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="amount" placeholder="Enter amount" value="14777">
+    <br>
+    <button onclick="add()" id="btnSubmit">Submit</button>
+
+    </br/>
+    </br/>
+    <div>
+        Select note preference</br/>
+        <button onclick="dist(500, 'note500')" value="500"   id="currency">500</button>
+        <button onclick="dist(100, 'note100')" value="100"   id="currency">100</button>
+        <button onclick="dist(50, 'note50')" value="50"    id="currency">50</button>
+        <button onclick="dist(20, 'note20')" value="20"    id="currency">20</button>
+        <button onclick="dist(10, 'note10')" value="10"    id="currency">10</button>
+        <button onclick="dist(5, 'note5')" value="5"     id="currency">5</button>
+        <button onclick="dist(1, 'note1')" value="1"     id="currency">1</button>
+        
+    </div>
+    </br></br>
+    <div id="notes">
+        Currency Note: <span id="selectedNote"></span></br></br>
+        500: <span id="note500"></span></br></br>
+        100: <span id="note100"></span></br></br>
+        50: <span id="note50"></span></br></br>
+        20: <span id="note20"></span></br></br>
+        10: <span id="note10"></span></br></br>
+        5: <span id="note5"></span></br></br>
+        1: <span id="note1"></span></br></br>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
